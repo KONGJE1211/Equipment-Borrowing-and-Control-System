@@ -10,7 +10,8 @@ use App\Models\LostReport;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Storage;
 
-class AdminController extends Controller
+class AdminController extends Controller 
+
 {
     // 简单管理员登录（单一账号）
     public function loginPage() {
